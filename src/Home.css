@@ -1,0 +1,49 @@
+.home-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  position: relative;
+}
+
+/* Fondo desenfocado */
+.gallery-background {
+  position: absolute;
+  width: 110%;
+  height: 100%;
+  background-image: url("background.jpg"); /* Asegúrate de tener un fondo */
+  background-size: cover;
+  background-position: center;
+  filter: blur(5px); /* Aplica el desenfoque */
+  z-index: -1; /* Lo envía al fondo */
+}
+
+/* Contenedor de la galería */
+.gallery {
+  position: relative;
+  width: 300px;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.2); /* Fondo semitransparente */
+  backdrop-filter: blur(8px); /* Desenfoque sobre el contenido */
+  border-radius: 10px;
+  height: 350px;
+}
+
+.gallery-img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  transition: opacity 1s ease-in-out;
+}
+
+.gallery-text {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #333;
+}
+button{
+    background-color: #334E8B;
+    color: white;
+    border-radius: 5px;
+}
