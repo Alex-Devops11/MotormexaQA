@@ -10,7 +10,7 @@
 /* Fondo desenfocado */
 .gallery-background {
   position: absolute;
-  width: 110%;
+  width: 100%;
   height: 100%;
   background-image: url("background.jpg"); /* Asegúrate de tener un fondo */
   background-size: cover;
@@ -22,12 +22,12 @@
 /* Contenedor de la galería */
 .gallery {
   position: relative;
-  width: 300px;
+  width: 650px;
   padding: 20px;
   background: rgba(255, 255, 255, 0.2); /* Fondo semitransparente */
   backdrop-filter: blur(8px); /* Desenfoque sobre el contenido */
   border-radius: 10px;
-  height: 350px;
+  height: 650px;
 }
 
 .gallery-img {
@@ -39,7 +39,7 @@
 
 .gallery-text {
   margin-top: 10px;
-  font-size: 14px;
+  font-size: 20px;
   color: #333;
 }
 button{

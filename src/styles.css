@@ -1,0 +1,85 @@
+/* Fondo general fijo */
+body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    overflow: hidden; /* Evita desplazamiento del fondo */
+}
+
+/* Contenedor del formulario con desplazamiento */
+.contenedor-formulario {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(8px);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    width: 50%;
+    margin-left: 25%;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    max-height: 85vh; /* Controla altura del contenedor */
+    overflow-y: auto; /* Permite desplazamiento interno */
+    text-align: center;
+    color: black;
+}
+
+/* Estilos para etiquetas */
+label {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+    color: black;
+}
+
+/* Opciones con radio buttons */
+.opciones {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+/* Estilos para los textarea */
+.textarea {
+    width: 90%;
+    height: 80px;
+    resize: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 8px;
+    font-size: 14px;
+    background: rgba(255, 255, 255, 0.8);
+    color: black;
+}
+
+/* Mensajes de error */
+.error {
+    color: red;
+    font-size: 12px;
+    display: block;
+    margin-top: 5px;
+}
+
+/* Botón de envío */
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin-top: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Subtítulos */
+h3 {
+    text-decoration: underline;
+}

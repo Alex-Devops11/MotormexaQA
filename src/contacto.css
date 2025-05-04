@@ -1,0 +1,82 @@
+/* Fondo exclusivo para la sección de Contacto */
+body.contacto {
+    background-image: url("./FondoContacto.jpg"); /* Imagen específica para Contacto */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed; /* Mantiene el fondo estático */
+}
+
+/* Estilos específicos del contenedor */
+.contenedor-contacto {
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    width: 50%;
+    max-height: 80vh;
+    overflow-y: auto;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.2); /* Fondo semi-transparente */
+    backdrop-filter: blur(10px); /* Efecto de desenfoque */
+    color: black;
+    margin: auto;
+}
+
+/* Estilos generales del formulario */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Etiquetas y campos de entrada */
+label {
+    font-weight: bold;
+    color: black;
+    display: block;
+    margin-top: 10px;
+}
+
+input, textarea {
+    width: 90%;
+    padding: 10px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.8);
+    color: black;
+}
+
+textarea {
+    height: 100px;
+    resize: none;
+}
+
+/* Botón de envío */
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 12px 18px;
+    margin-top: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Sección de información de contacto */
+.informacion-contacto {
+    margin-top: 30px;
+    text-align: left;
+    color: black;
+}
+
+/* Ocultar barra de desplazamiento */
+.contenedor-contacto::-webkit-scrollbar {
+    display: none;
+}

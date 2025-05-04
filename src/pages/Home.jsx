@@ -27,7 +27,7 @@ function Home() {
       <div className="gallery">
         <img src={images[currentIndex]} alt="Galería" className="gallery-img" />
         <p className="gallery-text">
-          Ven a conocer nuestros nuevos vehiculos 2026. <br /> <br />Agenda con nosotros una cotización o una prueba de manejo <br /> <br /> <button>Solicitar información</button>
+          <strong>Ven a conocer nuestros nuevos vehiculos 2026. <br /> <br />Agenda con nosotros una cotización o una prueba de manejo <br /> <br /></strong> <button>Solicitar información</button>
         </p>
       </div>
     </div>
